@@ -16,10 +16,9 @@ def Ventana(nRES):
     nVentana  = PG.display.set_caption('Programa Beta 0.1')
     return ventana
 #----------------------------------------------------------------------
-ventana = Ventana(nRES)
-#----------------------------------------------------------------------
 # While principal
 #----------------------------------------------------------------------
+Ventana(nRES)
 while lOk:
  for event in PG.event.get():
   if event.type == PG.QUIT:
